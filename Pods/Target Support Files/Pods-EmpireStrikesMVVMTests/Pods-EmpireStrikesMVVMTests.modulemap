@@ -1,0 +1,6 @@
+framework module Pods_EmpireStrikesMVVMTests {
+  umbrella header "Pods-EmpireStrikesMVVMTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
