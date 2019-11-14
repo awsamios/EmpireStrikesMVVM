@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SpaceTravelDetailsView" customModule="EmpireStrikesBack" customModuleProvider="target">
+            <connections>
+                <outlet property="detailsHeightConstaint" destination="p3l-Co-tGg" id="d3I-6v-heb"/>
+                <outlet property="detailsLabel" destination="nHL-2n-Sye" id="ipL-kU-btY"/>
+                <outlet property="subtitleLabel" destination="2f2-e5-5f3" id="0si-Hb-uSj"/>
+                <outlet property="titleLabel" destination="57z-1l-JHf" id="pBP-VK-epM"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="151" height="100"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="253" text="title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="57z-1l-JHf">
+                    <rect key="frame" x="24" y="16" width="103" height="16"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
+                    <color key="textColor" red="0.50588235290000005" green="0.50588235290000005" blue="0.50588235290000005" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="subtitle" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2f2-e5-5f3" customClass="ESBLabel" customModule="EmpireStrikesBack" customModuleProvider="target">
+                    <rect key="frame" x="24" y="40" width="103" height="40"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="letterSpacing">
+                            <integer key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="details" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nHL-2n-Sye" customClass="ESBLabel" customModule="EmpireStrikesBack" customModuleProvider="target">
+                    <rect key="frame" x="24" y="84" width="103" height="0.0"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" id="p3l-Co-tGg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
+                    <color key="textColor" red="0.50588235290000005" green="0.50588235290000005" blue="0.50588235290000005" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="letterSpacing">
+                            <integer key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="2f2-e5-5f3" firstAttribute="trailing" secondItem="57z-1l-JHf" secondAttribute="trailing" id="0gZ-ZB-mmq"/>
+                <constraint firstItem="2f2-e5-5f3" firstAttribute="top" secondItem="57z-1l-JHf" secondAttribute="bottom" constant="8" id="9bb-W7-ZDY"/>
+                <constraint firstItem="57z-1l-JHf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="24" id="CGx-9I-6zV"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="nHL-2n-Sye" secondAttribute="bottom" constant="16" id="Pmy-nM-38f"/>
+                <constraint firstItem="57z-1l-JHf" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="16" id="STw-sG-hvC"/>
+                <constraint firstItem="nHL-2n-Sye" firstAttribute="top" secondItem="2f2-e5-5f3" secondAttribute="bottom" constant="4" id="V8Z-xO-Bui"/>
+                <constraint firstItem="2f2-e5-5f3" firstAttribute="leading" secondItem="57z-1l-JHf" secondAttribute="leading" id="dNB-EV-j4M"/>
+                <constraint firstItem="nHL-2n-Sye" firstAttribute="leading" secondItem="57z-1l-JHf" secondAttribute="leading" id="eHc-gU-uuj"/>
+                <constraint firstAttribute="trailing" secondItem="57z-1l-JHf" secondAttribute="trailing" constant="24" id="it1-9T-zdW"/>
+                <constraint firstItem="nHL-2n-Sye" firstAttribute="trailing" secondItem="57z-1l-JHf" secondAttribute="trailing" id="lNV-aj-jML"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="93.599999999999994" y="77.361319340329842"/>
+        </view>
+    </objects>
+</document>
