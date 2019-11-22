@@ -9,7 +9,7 @@ target 'EmpireStrikesMVVM' do
 
  	pod 'RxSwift'
  	pod 'RxCocoa'
-  pod 'Alamofire'
+  	pod 'Alamofire'
 
   target 'EmpireStrikesMVVMTests' do
     inherit! :search_paths
