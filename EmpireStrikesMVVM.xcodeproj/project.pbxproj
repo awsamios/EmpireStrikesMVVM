@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		371FE4C9237D8307009FAE8A /* TripsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371FE4C8237D8307009FAE8A /* TripsContentView.swift */; };
+		371FE4CC237EB153009FAE8A /* TripsUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371FE4CB237EB153009FAE8A /* TripsUseCaseTests.swift */; };
 		3788D91B23672AB000A1782E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3788D91A23672AB000A1782E /* AppDelegate.swift */; };
 		3788D91D23672AB000A1782E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3788D91C23672AB000A1782E /* SceneDelegate.swift */; };
 		3788D92123672AB200A1782E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3788D92023672AB200A1782E /* Assets.xcassets */; };
@@ -36,7 +38,6 @@
 		3788D9792369B43D00A1782E /* AlamofireNetworkSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3788D9782369B43D00A1782E /* AlamofireNetworkSession.swift */; };
 		3788D97D2369E89900A1782E /* RequestInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3788D97C2369E89900A1782E /* RequestInput.swift */; };
 		3788D97F2369E8AD00A1782E /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3788D97E2369E8AD00A1782E /* Environment.swift */; };
-		3788D9822369EBB100A1782E /* TripsUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3788D9812369EBB100A1782E /* TripsUseCaseTests.swift */; };
 		3788D9862369EC1F00A1782E /* TripsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3788D9852369EC1F00A1782E /* TripsRepository.swift */; };
 		3788D9882369ED7A00A1782E /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3788D9872369ED7A00A1782E /* NetworkService.swift */; };
 		3788D98A236AEE1400A1782E /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3788D989236AEE1400A1782E /* Container.swift */; };
@@ -57,6 +58,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		371FE4C8237D8307009FAE8A /* TripsContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsContentView.swift; sourceTree = "<group>"; };
+		371FE4CB237EB153009FAE8A /* TripsUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsUseCaseTests.swift; sourceTree = "<group>"; };
 		3788D91723672AB000A1782E /* EmpireStrikesMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmpireStrikesMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3788D91A23672AB000A1782E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3788D91C23672AB000A1782E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,7 +93,6 @@
 		3788D9782369B43D00A1782E /* AlamofireNetworkSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireNetworkSession.swift; sourceTree = "<group>"; };
 		3788D97C2369E89900A1782E /* RequestInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestInput.swift; sourceTree = "<group>"; };
 		3788D97E2369E8AD00A1782E /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
-		3788D9812369EBB100A1782E /* TripsUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsUseCaseTests.swift; sourceTree = "<group>"; };
 		3788D9852369EC1F00A1782E /* TripsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsRepository.swift; sourceTree = "<group>"; };
 		3788D9872369ED7A00A1782E /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		3788D989236AEE1400A1782E /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
@@ -124,6 +126,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		371FE4CA237EB142009FAE8A /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				371FE4CB237EB153009FAE8A /* TripsUseCaseTests.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
 		3788D90E23672AB000A1782E = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +183,7 @@
 		3788D93023672AB200A1782E /* EmpireStrikesMVVMTests */ = {
 			isa = PBXGroup;
 			children = (
+				371FE4CA237EB142009FAE8A /* Domain */,
 				3788D93323672AB200A1782E /* Info.plist */,
 				3788D96C23698F4A00A1782E /* Service */,
 				3788D96923698EEC00A1782E /* Scenes */,
@@ -254,6 +265,7 @@
 			children = (
 				3788D94223684F5E00A1782E /* TripsViewController.swift */,
 				3788D9552368595400A1782E /* TripTableViewCell.swift */,
+				371FE4C8237D8307009FAE8A /* TripsContentView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -312,7 +324,6 @@
 		3788D96C23698F4A00A1782E /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				3788D9812369EBB100A1782E /* TripsUseCaseTests.swift */,
 				3788D96D23698F9800A1782E /* NetworkTests.swift */,
 			);
 			path = Service;
@@ -588,6 +599,7 @@
 				3788D96823689D0D00A1782E /* TripDetailsViewModel.swift in Sources */,
 				3788D99523702A3A00A1782E /* Date+String.swift in Sources */,
 				3788D96223689CB400A1782E /* SpaceTravelDetailsView.swift in Sources */,
+				371FE4C9237D8307009FAE8A /* TripsContentView.swift in Sources */,
 				3788D9522368533A00A1782E /* TripsUseCase.swift in Sources */,
 				3788D95A23687A3900A1782E /* ViewModelResolver.swift in Sources */,
 				3788D9732369978D00A1782E /* Network.swift in Sources */,
@@ -605,7 +617,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3788D9822369EBB100A1782E /* TripsUseCaseTests.swift in Sources */,
+				371FE4CC237EB153009FAE8A /* TripsUseCaseTests.swift in Sources */,
 				3788D96E23698F9800A1782E /* NetworkTests.swift in Sources */,
 				3788D93223672AB200A1782E /* EmpireStrikesMVVMTests.swift in Sources */,
 				3788D9712369902900A1782E /* json.swift in Sources */,
